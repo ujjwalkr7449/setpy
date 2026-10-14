@@ -93,4 +93,10 @@ else:
 python_students = {"Amit", "Rahul", "Priya", "Neha"}
 java_students = {"Rahul", "Neha", "Vijay"}
 
-print(python_students.intersection(java_students))
+print(python_students.intersection(java_students))\
+    
+#Q14. Find students enrolled in only one course.
+python_students = {"Amit", "Rahul", "Priya"}
+java_students = {"Rahul", "Neha", "Vijay"}
+
+print(python_students.symmetric_difference(java_students))
