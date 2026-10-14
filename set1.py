@@ -20,3 +20,9 @@ a = {1, 2, 3}
 b = {3, 4, 5}
 
 print(a | b)
+
+#Q5. Find elements present in A but not in B.
+a = {10, 20, 30, 40}
+b = {30, 40, 50}
+
+print(a - b)
