@@ -31,3 +31,12 @@ a = {1, 2, 3, 4}
 b = {3, 4, 5, 6}
 
 print(a ^ b)
+
+#Check whether two sets have any common elements.
+a = {1, 2, 3}
+b = {4, 5, 6}
+
+if a.isdisjoint(b):
+    print("No common elements")
+else:
+    print("Common elements exist")
