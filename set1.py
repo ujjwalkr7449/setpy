@@ -7,3 +7,9 @@ print(numbers)
 numbers = [1, 2, 2, 3, 4, 4, 5]
 result = set(numbers)
 print(result)
+
+#Q3. Find the common elements between two sets.
+a = {1, 2, 3, 4}
+b = {3, 4, 5, 6}
+
+print(a & b)
