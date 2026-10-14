@@ -40,3 +40,9 @@ if a.isdisjoint(b):
     print("No common elements")
 else:
     print("Common elements exist")
+    
+#Check whether one set is a subset of another.
+a = {2, 4}
+b = {1, 2, 3, 4, 5}
+
+print(a.issubset(b))
