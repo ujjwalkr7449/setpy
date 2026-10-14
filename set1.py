@@ -86,3 +86,11 @@ if set(a) == set(b):
     print("Same unique elements")
 else:
     print("Different elements")
+    
+    
+#Q13. Find common students in two courses.
+
+python_students = {"Amit", "Rahul", "Priya", "Neha"}
+java_students = {"Rahul", "Neha", "Vijay"}
+
+print(python_students.intersection(java_students))
