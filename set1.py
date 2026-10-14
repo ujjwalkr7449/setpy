@@ -76,3 +76,13 @@ expected = set(range(1, 11))
 missing = expected - numbers
 
 print(missing)
+
+
+#Q12. Check whether two lists contain the same unique elements.
+a = [1, 2, 2, 3, 4]
+b = [4, 3, 2, 1, 1]
+
+if set(a) == set(b):
+    print("Same unique elements")
+else:
+    print("Different elements")
