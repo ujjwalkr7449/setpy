@@ -26,3 +26,8 @@ a = {10, 20, 30, 40}
 b = {30, 40, 50}
 
 print(a - b)
+#Q6. Find elements that exist in exactly one of the two sets.
+a = {1, 2, 3, 4}
+b = {3, 4, 5, 6}
+
+print(a ^ b)
