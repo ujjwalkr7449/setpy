@@ -46,3 +46,9 @@ a = {2, 4}
 b = {1, 2, 3, 4, 5}
 
 print(a.issubset(b))
+#Find the number of unique elements in a list.
+numbers = [1, 2, 2, 3, 3, 3, 4, 5]
+
+unique_numbers = set(numbers)
+
+print(len(unique_numbers))
