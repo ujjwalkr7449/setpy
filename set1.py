@@ -66,3 +66,13 @@ for num in numbers:
         seen.add(num)
 
 print(duplicates)
+
+
+#Q11. Find missing numbers between 1 and 10.
+numbers = {1, 2, 4, 6, 7, 9, 10}
+
+expected = set(range(1, 11))
+
+missing = expected - numbers
+
+print(missing)
