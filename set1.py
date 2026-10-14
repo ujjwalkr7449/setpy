@@ -100,3 +100,16 @@ python_students = {"Amit", "Rahul", "Priya"}
 java_students = {"Rahul", "Neha", "Vijay"}
 
 print(python_students.symmetric_difference(java_students))
+
+
+#Q15. Remove common elements from two sets.
+a = {1, 2, 3, 4, 5}
+b = {3, 4, 5, 6, 7}
+
+common = a & b
+
+a -= common
+b -= common
+
+print(a)
+print(b)
